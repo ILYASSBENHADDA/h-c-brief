@@ -1,0 +1,81 @@
+body {
+    background: #dea;
+}
+div.body {
+    background: white;
+    border: 2px solid #ab4;
+    padding: 0px;
+    margin: 10px 250px;
+}
+
+div.header #img-title {
+    padding: 10px 10px 10px 25px;
+    position: absolute;
+}
+
+div.corps {
+    padding: 0px 25px 0px 140px;
+    font-size: 11px;
+    font-family:"Trebuchet MS", helvetica, sans-serif;
+    line-height:24px;
+    padding: 0 25px 0 100px;
+    background: url(img/bg_page.gif) no-repeat 14px 14px;
+}
+
+div.list ul {
+    padding: 0px 0px;
+    margin: -4px 0px;
+    background-image: url(img/H-Menu.png);
+    height: 35px;
+}
+
+div.list ul li {
+    font-family:"Trebuchet MS", helvetica, sans-serif;
+    padding:0px 20px 0px 20px;
+    margin: 40px 0px 0px 0px;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 2px solid #dea;
+    line-height:25px;
+
+}
+
+div.list a {
+    text-decoration: none;
+    color: white;
+}
+
+div.list ul li:hover {
+    background-image: url(img/C-Menu.png);
+}
+
+p {
+    text-indent: 20px;
+}
+
+div.corps h2 {
+    color:#9b2;
+    border-bottom:1px solid #9b2;
+    background: url(img/little_apple.gif) no-repeat left bottom;
+    text-indent: 25px;
+}
+
+h3 {
+    color: #9b2;
+    border-bottom: 1px solid #9b2;
+    border-left: 4px solid #9b2;
+    text-indent: 5px;
+}
+
+.lien {
+    color: #8a0;
+}
+
+.lastfooter {
+    font-size: 11px;
+    font-weight:bold;
+    text-align:right;
+    color:#8a0;
+    border: none;
+}
